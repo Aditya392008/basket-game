@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+<!--Link game.js and player.js-->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>  
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script>
+var firebaseConfig = {
+  apiKey: "AIzaSyDJHXy1ILMME5wO78qZ4QwJycC9YHzZiLg",
+  authDomain: "fruit-basket-game-f4e64.firebaseapp.com",
+  projectId: "fruit-basket-game-f4e64",
+  storageBucket: "fruit-basket-game-f4e64.appspot.com",
+  messagingSenderId: "693333854981",
+  appId: "1:693333854981:web:fc4faa30a8aac222e9c56c"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
